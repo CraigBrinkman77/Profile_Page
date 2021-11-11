@@ -185,7 +185,6 @@ p.date{
     border-radius: 5px;
 }
 /*Friend list*/
-
 .friendlist{
     display: flex;
     flex-flow: column wrap;
