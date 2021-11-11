@@ -46,7 +46,7 @@ h3.home{
     width: 400px;
 }
 button.signout{
-    background-color: rgb(35, 122, 23);
+    background-color: rgb(46, 92, 59);
     height: 30px;  
     width: 100px;
     border-radius: 5px;
@@ -119,11 +119,116 @@ p.about{
     margin-top:10px;
     text-align: left;
 }
+/*This is for the Education Section*/
 .education{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 40px;
+    width: 800px;
+    height: 500px;
+    border:5px solid rgb(46, 92, 59);
+    border-radius: 5px;
     
 }
-
+.eduheader{
+    width: 804px;  
+    height: 60px;
+    background-color: rgb(46, 92, 59);
+    border-radius: 5px;
+    margin: -2px;
+}
+img.stx{
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+h1.two{
+    color: black;
+}
+p.date{
+    margin-left: 50px;
+    font-weight: 300;
+}
+/*This is for the Side bars*/
 .column2{
     width: 400px;
-    background-color: black;
+
+}
+/*Friend Requests*/
+.request{
+    width: 400px;
+    height: 250px;
+    border:5px solid rgb(46, 92, 59);
+    border-radius: 5px; 
+}
+.friendrequest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    border:5px solid rgb(46, 92, 59);
+    border-radius: 5px;
+    
+}
+/*Friend list*/
+
+.friendlist{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: left;
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    border:5px solid rgb(46, 92, 59);
+    border-radius: 5px;
+    
+}
+button.number{
+    border-radius: 50%;
+    margin: 20px;
+    width:30px;
+    height: 30px;
+    border: none;
+}
+button.number2{
+    border-radius: 60%;
+    margin: 20px;
+    width:50px;
+    height: 20px;
+    border: none;
+
+}
+img.user{
+    width: 50px;
+    margin: 20px;
+}
+img.user1{
+    width:50px;
+    margin-right: 40px;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tag1{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+.bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 404px;  
+    height: 60px;
+    background-color: rgb(46, 92, 59);
+    border-radius: 5px;
+    margin: -2px;
+}
+.list{
+    display: flex;
+    justify-items: left;
 }
