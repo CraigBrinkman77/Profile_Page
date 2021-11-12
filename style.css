@@ -5,10 +5,8 @@
 .entire{
 }
 /*This is for the Header*/
-
 .header{
     display: flex;
-    justify-content: space-around;
     padding: 20px;
     height: 70px;
     background-color: black;
@@ -19,9 +17,7 @@
     margin: 5px;
     display: flex;
 }
-
 /*Header Left*/
-
 .headerleft{
     align-items: center;
     justify-content: left;
@@ -53,12 +49,9 @@ button.signout{
     box-shadow: 3px 3px 3px honeydew;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 button:active{
     background-color: rgb(163, 233, 34);
 }
-
-
 /*This is for the Body with 2 Columns in it*/
 .body{
     margin-top: 20px;
@@ -72,7 +65,6 @@ button:active{
 .column1, .column2{
     height: 1500px;
     margin: 10px;
-
 }
 .column1{
     width: 800px
@@ -178,13 +170,14 @@ p.date{
     border:5px solid rgb(46, 92, 59);
     border-radius: 5px;
 }
+
+/*Friend list*/
 #request{
     color: black;
     border:2px solid black;
     width: 182px;
     border-radius: 5px;
 }
-/*Friend list*/
 .friendlist{
     display: flex;
     flex-flow: column wrap;
@@ -195,6 +188,7 @@ p.date{
     border:5px solid rgb(46, 92, 59);
     border-radius: 5px;
 }
+
 #list{
     color: black;
     border:2px solid black;
